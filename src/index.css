@@ -1,3 +1,55 @@
 .App {
+  display: inline-flex;
+  margin: 30px;
+  overflow: auto;
+  flex-wrap: wrap;
   display: flex;
+}
+
+.main {
+  display: inline-flex;
+  margin: 30px;
+  overflow: auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.move {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.player-card {
+  border: 5px double black;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  height: 250px;
+}
+
+.link {
+  position: relative;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+}
+
+.name {
+  border-bottom: 3px black solid;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+img {
+  height: 168px;
+  width: fit-content;
+  margin-bottom: 5px;
 }
