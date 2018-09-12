@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.body {
+  background: #222;
+}
+
 .main {
   display: inline-flex;
   margin: 30px;
@@ -60,7 +64,6 @@ img {
   font-size: 40px;
   text-align: center;
   width: 100%;
-  background: PALEGOLDENROD;
   font-weight: bold;
   padding: 10px 0 10px 0;
 }
@@ -89,4 +92,56 @@ img {
   fill: green !important;
   height: 48px !important;
   width: 48px !important;
+}
+
+#logo {
+   font-family: 'Open Sans', sans-serif;
+   color: #555;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 50px;
+   font-weight: 800;
+   letter-spacing: -3px;
+   line-height: 1;
+   text-shadow: #EDEDED 3px 2px 0;
+   position: relative;
+ }
+/*#logo:after {*/
+  /*content:"Super Star Moves";*/
+  /*position: absolute;*/
+  /*left: 8px;*/
+  /*top: 32px;*/
+/*}*/
+/*#logo:after {*/
+  /*!*background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*!*/
+  /*background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);*/
+  /*background-size: 4px 4px;*/
+  /*-webkit-background-clip: text;*/
+  /*-webkit-text-fill-color: transparent;*/
+  /*z-index: -5;*/
+  /*display: block;*/
+  /*text-shadow: none;*/
+/*}*/
+
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+          -3px -3px 0 #222,
+          3px -3px 0 #222,
+          -3px 3px 0 #222,
+          3px 3px 0 #222,
+          4px 4px 0 #fff,
+          5px 5px 0 #fff,
+          6px 6px 0 #fff,
+          7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+  font-size: 85px;
 }

@@ -7,7 +7,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 ReactDOM.render(
     <MuiThemeProvider muiTheme={getMuiTheme()}>
-        <App/>
+            <App />
     </MuiThemeProvider>,
     document.getElementById('root')
 );
