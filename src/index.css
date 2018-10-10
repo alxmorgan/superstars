@@ -75,12 +75,13 @@ img {
 }
 
 .overall-card {
-  width: 280px;
+  width: 270px;
   margin-right: 10px;
   margin-bottom: 20px;
   margin-left: 10px;
   -webkit-box-shadow: 1px 1px 2px 2px #ccc !important;
   box-shadow: 1px 1px 2px 2px #ccc !important;
+  min-height: 445px;
 }
 
 .normal-button {
